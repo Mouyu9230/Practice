@@ -103,6 +103,7 @@ void Show_all_books(){//展示所有用户信息
     printf("=========== 所有书籍信息 ===========\n");
     for(int i = 0; i < bookcount; i++){
         printf("名字:%s\n", books[i].name);
+        -
         printf("作者:%s\n", books[i].author);
         printf("ID:%lld\n", books[i].ID);
         printf("数量:%d\n", books[i].all);
@@ -158,7 +159,6 @@ void Check_information(){
 void Add_book(){
     if(bookcount>=2048){
         printf("书库已满！\n");
-        return;
     }
     book newbook;
 
