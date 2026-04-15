@@ -1,3 +1,5 @@
+//运行该程序前运行test_data_init.c以生成测试数据文件
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
